@@ -1,0 +1,45 @@
+body {
+	background-color: #FCFCFC;
+	font-family: 'Open Sans Condensed', sans-serif;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+h1 {
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-size: 3.9em;
+}
+.container {
+	margin-top: 100px;
+}
+button {
+	margin-top: 18px;
+	padding: 0;
+	background:none;
+	border:none;
+	font-size:2.4em;
+	outline: none;
+}
+blockquote {
+	letter-spacing: 1px;
+	line-height: 1.8em;;
+	font-style: italic;
+	top: 20px;
+	font-size: 1.8em;
+	border-left: none;
+	color: #515151;
+}
+.title h1,
+.title h3 {
+    display: inline;
+}
+@media only screen and (max-width: 767px) {
+    blockquote {
+        [class*="col-"] {
+	        width: 70%;
+	    }
+    }
+}
